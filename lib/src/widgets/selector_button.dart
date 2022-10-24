@@ -40,7 +40,8 @@ class SelectorButton extends StatelessWidget {
         ? countries.isNotEmpty && countries.length > 1
             ? DropdownButtonHideUnderline(
                 child: DropdownButton<Country>(
-                  key: Key(TestHelper.DropdownButtonKeyValue),icon: null,
+                  key: Key(TestHelper.DropdownButtonKeyValue),
+                  icon: null,
                   hint: Item(
                     country: country,
                     showFlag: selectorConfig.showFlags,
