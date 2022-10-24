@@ -42,7 +42,7 @@ class SelectorButton extends StatelessWidget {
             ? DropdownButtonHideUnderline(
                 child: DropdownButton<Country>(
                   key: Key(TestHelper.DropdownButtonKeyValue),
-                  icon: SvgPicture.asset('assets/images/arrow_down.svg'),
+                  icon: Icon(Icons.ice_skating),
                   hint: Item(
                     country: country,
                     showFlag: selectorConfig.showFlags,
