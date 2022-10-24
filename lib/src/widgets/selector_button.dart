@@ -43,7 +43,7 @@ class SelectorButton extends StatelessWidget {
                 child: DropdownButton<Country>(
                   key: Key(TestHelper.DropdownButtonKeyValue),
                   icon: SvgPicture.asset('assets/images/arrow_down.svg'),
-                  iconSize: 80,
+                  iconSize: 40,
                   hint: Item(
                     country: country,
                     showFlag: selectorConfig.showFlags,
