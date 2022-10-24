@@ -29,4 +29,4 @@ dev_dependencies:
 flutter:
   assets:
     - assets/flags/
-    - assets/images/
+    - assets/images/Small.png
