@@ -43,6 +43,8 @@ class SelectorButton extends StatelessWidget {
                 child: DropdownButton<Country>(
                   key: Key(TestHelper.DropdownButtonKeyValue),
                   icon: Icon(Icons.keyboard_arrow_down),
+                  isExpanded: true,
+                  isDense: true,
                   hint: Item(
                     country: country,
                     showFlag: selectorConfig.showFlags,
