@@ -7,8 +7,6 @@ import 'package:intl_phone_number_input/src/widgets/countries_search_list_widget
 import 'package:intl_phone_number_input/src/widgets/input_widget.dart';
 import 'package:intl_phone_number_input/src/widgets/item.dart';
 
-import '../utils/Images.dart';
-
 /// [SelectorButton]
 class SelectorButton extends StatelessWidget {
   final List<Country> countries;
@@ -44,7 +42,7 @@ class SelectorButton extends StatelessWidget {
             ? DropdownButtonHideUnderline(
                 child: DropdownButton<Country>(
                   key: Key(TestHelper.DropdownButtonKeyValue),
-                  icon: Image.asset('assets/images/Small.png'),
+                  icon: Image.asset('/assets/assets/images/Small.png'),
                   iconSize: 40,
                   hint: Item(
                     country: country,
